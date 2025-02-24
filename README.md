@@ -25,7 +25,7 @@ Add the following to your Cargo.toml:
 
 ```toml
 [dependencies]
-fsmrs = "0.1.0"
+fsmrs = "0.1.2"
 ```
 
 ## Changelog

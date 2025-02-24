@@ -1,6 +1,6 @@
 [package]
 name = "fsmrs"
-version = "0.1.0"
+version = "0.1.2"
 edition = "2021"
 authors = ["LSH <github@lsh.tech>"]
 description = "Simple FSM (Final state machine) library wrtting in rust"
@@ -11,3 +11,4 @@ name = "fsmrs"
 path = "src/lib.rs"
 
 [dependencies]
+
