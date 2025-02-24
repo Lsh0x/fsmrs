@@ -2,6 +2,9 @@
 name = "fsmrs"
 version = "0.1.0"
 edition = "2021"
+authors = ["LSH <github@lsh.tech>"]
+description = "Simple FSM (Final state machine) library wrtting in rust"
+license = "GPL-3.0"
 
 [lib]
 name = "fsmrs"
