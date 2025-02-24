@@ -1,10 +1,10 @@
 [package]
-name = "rbase"
-version = "0.2.1"
-authors = ["LSH <github@lsh.tech>"]
+name = "rsfsm"
+version = "0.1.0"
 edition = "2021"
-description = "Github template to setup the CI and cargo publish"
-license = "GPL-3.0"
 
+[lib]
+name = "rsfsm"
+path = "src/lib.rs"
 
 [dependencies]
