@@ -46,7 +46,8 @@ impl<S: Eq + Hash + Clone> FSM<S> {
         if !self.states.contains(&from) || !self.states.contains(&to) {
             panic!("Transition states must be part of the FSM states");
         }
-        self.transitions.insert((from, to, transition_name), Box::new(callback));
+        self.transitions
+            .insert((from, to, transition_name), Box::new(callback));
     }
 
     /// Attempts to transition to the given state using a transition identified by `transition_name`.
@@ -57,7 +58,11 @@ impl<S: Eq + Hash + Clone> FSM<S> {
     ///
     /// If no transition is defined for the current state to `to` with the given `transition_name`, this function returns `false`.
     pub fn transition_to(&mut self, to: S, transition_name: &str) -> bool {
-        let key = (self.current.clone(), to.clone(), transition_name.to_string());
+        let key = (
+            self.current.clone(),
+            to.clone(),
+            transition_name.to_string(),
+        );
         if let Some(callback) = self.transitions.get(&key) {
             let result = callback();
             if result {
