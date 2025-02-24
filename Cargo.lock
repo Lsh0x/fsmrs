@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "rsfsm"
+name = "fsmrs"
 version = "0.1.0"

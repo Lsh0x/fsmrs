@@ -1,10 +1,10 @@
 [package]
-name = "rsfsm"
+name = "fsmrs"
 version = "0.1.0"
 edition = "2021"
 
 [lib]
-name = "rsfsm"
+name = "fsmrs"
 path = "src/lib.rs"
 
 [dependencies]

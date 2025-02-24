@@ -1,12 +1,12 @@
 # rbase
 Rust setup for new project
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/lsh0x/rbase)](https://github.com/lsh0x/rbase/commits/main)
-[![CI](https://github.com/lsh0x/rbase/workflows/CI/badge.svg)](https://github.com/lsh0x/rbase/actions)
-[![Codecov](https://codecov.io/gh/lsh0x/rbase/branch/main/graph/badge.svg)](https://codecov.io/gh/lsh0x/rbase)
-[![Docs](https://docs.rs/rbase/badge.svg)](https://docs.rs/rbase)
-[![Crates.io](https://img.shields.io/crates/v/rbase.svg)](https://crates.io/crates/rbase)
-[![crates.io](https://img.shields.io/crates/d/rbase)](https://crates.io/crates/rbase)
+[![GitHub last commit](https://img.shields.io/github/last-commit/lsh0x/fsmrs)](https://github.com/lsh0x/fsmrs/commits/main)
+[![CI](https://github.com/lsh0x/fsmrs/workflows/CI/badge.svg)](https://github.com/lsh0x/fsmrs/actions)
+[![Codecov](https://codecov.io/gh/lsh0x/fsmrs/branch/main/graph/badge.svg)](https://codecov.io/gh/lsh0x/fsmrs)
+[![Docs](https://docs.rs/fsmrs/badge.svg)](https://docs.rs/fsmrs)
+[![Crates.io](https://img.shields.io/crates/v/fsmrs.svg)](https://crates.io/crates/fsmrs)
+[![crates.io](https://img.shields.io/crates/d/fsmrs)](https://crates.io/crates/fsmrs)
 
 
 ### Adapt to your project 
