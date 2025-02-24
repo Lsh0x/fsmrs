@@ -1,4 +1,4 @@
-use rsfsm::FSM;
+use fsmrs::FSM;
 
 #[test]
 fn raft_election_success() {
