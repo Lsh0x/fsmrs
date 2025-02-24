@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- fix: codecov install libsso [\#2](https://github.com/Lsh0x/fsmrs/pull/2) ([Lsh0x](https://github.com/Lsh0x))
 - doc: update readme [\#1](https://github.com/Lsh0x/fsmrs/pull/1) ([Lsh0x](https://github.com/Lsh0x))
 
 
