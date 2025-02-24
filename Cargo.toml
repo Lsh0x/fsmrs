@@ -1,6 +1,6 @@
 [package]
 name = "fsmrs"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["LSH <github@lsh.tech>"]
 description = "Simple FSM (Final state machine) library wrtting in rust"
